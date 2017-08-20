@@ -1,7 +1,7 @@
 # 공부중인 자료들
 
 ## 2017 / 08 / 20
-### [unity c# 시작]()
+### [unity c# 시작](./csharp_unity.md)
 
 ## 2017 / 08 / 19
 ### centos7(GCP) : python3.6~django install
