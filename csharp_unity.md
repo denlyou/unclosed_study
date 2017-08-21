@@ -2,13 +2,13 @@
 
 ## 로그
 
-```csharp
+```cs
 Debug.Log("Message");
 ```
 
 ### 기본 스크립트
 
-```csharp
+```cs
 using UnityEngine;
 using System.Collections;
 
@@ -25,7 +25,7 @@ public class testScript : MonoBehaviour {
 ```
 
 ### 키보드 입력 감지
-```csharp
+```cs
 void Update () {
   bool isSpaceInput = Input.GetKey (KeyCode.Space);
   if (isSpaceInput) {
@@ -43,7 +43,7 @@ void Update () {
 
 
 ### 마우스 입력 감지
-```csharp
+```cs
 void Update () {
   if (Input.GetMouseButtonDown(0)) {
 		Debug.Log ("Mouse left button click");
