@@ -24,13 +24,21 @@
 - 비교 연산자 : >, <, <=, >=, !=
 
 ## 조건문
-### if ( 조건식 ) { 코드 }
-  - if () {} else {}
-### switch () case {}
-  - case ?: break;
+### if문
+- if ( 조건식 ) { 코드 }
+ - else 가능
+ - else if 가능
+ 
+### switch
+- switch ( 변수 ) case { 코드 }
+- case 값: break;
 
 ## 반복문
-### for
+### while문
+- do~while
+  - do { 코드 } while (조건식);
+### for문
+  -
 ### foreach
 
 ## 배열
