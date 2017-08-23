@@ -121,9 +121,9 @@ Schema::table('users', function (Blueprint $table) {
 
 ### 컬럼 수정하기
 
->#### ** 필수 사항 ** :  Doctrine DBAL 라이브러리 필요
+#### ** 필수 사항 ** :  Doctrine DBAL 라이브러리 필요
 
->```shell
+```shell
 composer require doctrine/dbal
 ```
 
@@ -170,10 +170,10 @@ Schema::table('users', function (Blueprint $table) {
 });
 ```
 
-> 주의 : 인덱스 길이 & MySQL / MariaDB
+#### 주의 : 인덱스 길이 & MySQL / MariaDB
 > 라라벨은 기본적으로 "emojis"를 데이터베이스에 저장할 수 있는 utf8mb4 캐릭터셋을 사용합니다. 5.7.7 이전의 MySQL 이나 10.2.2 이전의 MariaDB를 사용하는 경우, MySQL이 인덱스를 구성할 수 있게 하기 위해서 마이그레이션으로 생성된 문자열 길이를 수동으로 조정해야 할 수도 있습니다. AppServiceProvider 파일 안에서 Schema::defaultStringLength 메소드를 호출하여 이를 설정할 수 있습니다.
 
->```php
+```php
 // AppServiceProvider.php
 use Illuminate\Support\Facades\Schema;
 public function boot(){
